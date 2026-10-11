@@ -146,11 +146,11 @@ Reports/CIP-B106_CaseStudy_C11-26-DFIT-17300_Simonadeka.pdf - Final Report
 
 ### Academic Declaration
 
-I confirm this report reflects my own examination of authorised course evidence C11/26/DFIT/17300 and that I have identified all sources. Signed Simon Friday Adeka C11/26/DFIT/17300 09 Oct 2026
-
+I confirm this report reflects my own examination of authorised course evidence C11/26/DFIT/17300 and that I have identified all sources. 
 ### Commands Reference
 
 ```bash
+
 # Preservation
 sha256sum data/data/com.google.android.apps.maps/files/offlinedatabase/offline.db
 sha256sum ~/CIPB106-C11/26/DFIT/17300/Evidence/offline.db
