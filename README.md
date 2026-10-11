@@ -19,21 +19,18 @@ sha256sum Evidence/offline.db | cut -d' ' -f1 > /tmp/e.txt
 diff /tmp/w.txt /tmp/e.txt && echo "HASH MATCH - PRESERVATION OK"
 ### 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
 
-**Main Finding:** Holly Springs, NC 35.734602,-78.636654 from offline.db 380K SHA256 77467648 MATCH + gmm_myplaces.db sync_item 35734602|-78636654
 
-### Preservation  100%
+**Main Finding:** Holly Springs, NC 35.734602,-78.636654 from offline.db 380K + gmm_myplaces.db sync_item 35734602|-78636654
+**Integrity:** SHA256 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c MATCH
+
+### Preservation - Task A
 
 | Artefact | Path | Size | SHA256 | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| offline.db | data/data/com.google.android.apps.maps/files/offlinedatabase/offline.db | 380K 389,120 B | 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c | MATCH |
+| offline.db | data/data/com.google.android.apps.maps/files/offlinedatabase/offline.db | 380K 389120 B | 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c | MATCH |
 | final_location.txt | Evidence/final_location.txt | 64B | Holly Springs + WORK:0 + INFERRED_HOME | VERIFIED |
 
-1. **sha256sum Working/offline.db | cut -d' ' -f1 > /tmp/w.txt
-2. **sha256sum Evidence/offline.db | cut -d' ' -f1 > /tmp/e.txt
-3. **diff /tmp/w.txt /tmp/e.txt && echo "HASH MATCH - PRESERVATION OK"
-### 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
-
-### Lab Tasks - 5 Column Style
+### Lab Tasks 
 
 | Task | Description | Evidence Path | Proof | Link |
 | :--- | :--- | :--- | :--- | :--- |
