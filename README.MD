@@ -136,11 +136,18 @@ Decoded:
 
 ### 6. EXPORTED EVIDENCE
 
+**Location:** `Evidence/` - 384K total - Oct 9 18:48 - VERIFIED
 
-Evidence/ - 384K total - Oct 9 18:48final_location.txt (64 bytes) - Holly Springs - Working + Evidence VERIFIEDoffline.db (380K / 389120 bytes) - SHA256 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c - PRESERVATION OKgmm_myplaces.db (40K) - sync_item 35734602 = 35.734602,-78.636654gmm_storage.db (92K) + gmm_sync.db (44K) - corroborationmmssms.db (116K) - 24 OTPcontacts2.db - Josh Hickman x9 deleted
-Report_Screenshots/ - 30 Figures - Task A,B,C,D mapping verified
-Reports/CIP-B106_CaseStudy_C11-26-DFIT-17300_Simonadeka.pdf - Final Report
+- `final_location.txt` (64 bytes) - Contains Holly Springs - Working + Evidence VERIFIED
+- `offline.db` (380K / 389120 bytes) - SHA256: `77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c` - PRESERVATION OK
+- `gmm_myplaces.db` (40K) - sync_item 35734602 = 35.734602,-78.636654 - Holly Springs NC
+- `gmm_storage.db` (92K) + `gmm_sync.db` (44K) - geospatial corroboration
+- `mmssms.db` (116K) - 24 OTP messages only
+- `contacts2.db` - Josh Hickman x9 deleted
+- `Report_Screenshots/` - 30 Figures - Task A,B,C,D mapping verified
+- `Reports/CIP-B106_CaseStudy_C11-26-DFIT-17300_Simonadeka.pdf` - Final Report
 
+**Integrity:** HASH MATCH - PRESERVATION OK - INTEGRITY MAINTAINED
 
 ### Academic Declaration
 
