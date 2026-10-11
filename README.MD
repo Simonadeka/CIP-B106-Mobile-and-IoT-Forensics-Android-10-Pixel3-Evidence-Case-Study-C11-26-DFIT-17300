@@ -28,10 +28,10 @@ Checks:
 
 Hash Proof:
 
-Working: 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
-Evidence: 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
-Command: sha256sum Working/offline.db > /tmp/w.txt && sha256sum Evidence/offline.db > /tmp/e.txt && diff /tmp/w.txt /tmp/e.txt && echo "HASH MATCH - PRESERVATION OK"
-Result: HASH MATCH - PRESERVATION OK - INTEGRITY MAINTAINED
+- `Working: 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
+- `Evidence: 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
+- `Command: sha256sum Working/offline.db > /tmp/w.txt && sha256sum Evidence/offline.db > /tmp/e.txt && diff /tmp/w.txt /tmp/e.txt && echo "HASH MATCH - PRESERVATION OK"
+- `Result: HASH MATCH - PRESERVATION OK - INTEGRITY MAINTAINED
 
 
 Evidence Inventory (384K):
