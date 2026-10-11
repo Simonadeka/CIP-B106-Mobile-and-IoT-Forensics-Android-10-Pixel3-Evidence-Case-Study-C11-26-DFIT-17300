@@ -17,7 +17,7 @@
 sha256sum Working/offline.db | cut -d' ' -f1 > /tmp/w.txt
 sha256sum Evidence/offline.db | cut -d' ' -f1 > /tmp/e.txt
 diff /tmp/w.txt /tmp/e.txt && echo "HASH MATCH - PRESERVATION OK"
-# 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
+### 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
 
 **Main Finding:** Holly Springs, NC 35.734602,-78.636654 from offline.db 380K SHA256 77467648 MATCH + gmm_myplaces.db sync_item 35734602|-78636654
 
@@ -31,7 +31,7 @@ diff /tmp/w.txt /tmp/e.txt && echo "HASH MATCH - PRESERVATION OK"
 sha256sum Working/offline.db | cut -d' ' -f1 > /tmp/w.txt
 sha256sum Evidence/offline.db | cut -d' ' -f1 > /tmp/e.txt
 diff /tmp/w.txt /tmp/e.txt && echo "HASH MATCH - PRESERVATION OK"
-# 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
+### 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
 
 ### Lab Tasks - 5 Column Style
 
