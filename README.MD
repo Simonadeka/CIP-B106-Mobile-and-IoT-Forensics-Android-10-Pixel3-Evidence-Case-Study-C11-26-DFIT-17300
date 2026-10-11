@@ -22,9 +22,9 @@ Forensically sound examination of Android 10 Pixel 3 logical partition dump (81 
 Forensically sound working copy. Analysis on Working copy only.
 
 Checks:
-- `data/system/packages.list` - No such file or directory - Confirms logical dump
-- `build.prop` - Not present in root
-- `data/data/com.google.android.apps.maps/files/offlinedatabase/offline.db` - PRESENT 380K Oct 9 18:48 VERIFIED
+- data/system/packages.list` - No such file or directory - Confirms logical dump
+- build.prop` - Not present in root
+- data/data/com.google.android.apps.maps/files/offlinedatabase/offline.db` - PRESENT 380K Oct 9 18:48 VERIFIED
 
 Hash Proof:
 
