@@ -19,7 +19,6 @@ Forensically sound examination of Android 10 Pixel 3 logical partition dump (81 
 **Conclusion:** Device hardened for privacy, communications wiped, final location Holly Springs, NC.
 
 ### 1. PRESERVATION & INTEGRITY - Task A
-
 Forensically sound working copy. Analysis on Working copy only.
 
 Checks:
@@ -27,9 +26,9 @@ Checks:
 - `build.prop` - Not present in root
 - `data/data/com.google.android.apps.maps/files/offlinedatabase/offline.db` - PRESENT 380K Oct 9 18:48 VERIFIED
 
-**Hash Proof:**
+Hash Proof:
 
-Working:  77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
+Working: 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
 Evidence: 77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c
 Command: sha256sum Working/offline.db > /tmp/w.txt && sha256sum Evidence/offline.db > /tmp/e.txt && diff /tmp/w.txt /tmp/e.txt && echo "HASH MATCH - PRESERVATION OK"
 Result: HASH MATCH - PRESERVATION OK - INTEGRITY MAINTAINED
