@@ -6,7 +6,7 @@
 
 > **Brief:** Android 10 Pixel 3 Evidence Case Study | **Main Finding:** `Holly Springs, NC 35.734602,-78.636654` from `offline.db` + `gmm_myplaces.db` sync_item `35734602|-78636654` | **Evidence:** `~/CIPB106-C11/26/DFIT/17300/`
 
-### Preservation - Task A - INTEGRITY 100%
+### Preservation & INTEGRITY
 
 | Artefact | Working Copy Path | Size | SHA256 | Status |
 | :--- | :--- | :--- | :--- | :--- |
@@ -47,18 +47,7 @@ diff /tmp/w.txt /tmp/e.txt && echo "HASH MATCH - PRESERVATION OK"
 | D | Final Location | strings offline.db | Holly Springs, INFERRED_HOME, WORK:0, World | Fig_5.4 FINAL |
 | D | Coords BONUS | gmm_myplaces.db 40K 35734602 | 35.734602,-78.636654 Holly Springs NC | Fig_5.6 |
 
-### Repo Structure
 
-/Report_Screenshots/ - 30 verification Figs Fig_1.0 to Fig_5.6
-/Evidence/ - final_location.txt 64B, offline.db 380K HASH 77467648
-/Reports/ - CIP-B106_CaseStudy_C11-26-DFIT-17300_Simonadeka.pdf
-
-### Submission
-
-**PDF Filename:** CIP-B106_CaseStudy_C11-26-DFIT-17300_Simonadeka.pdf
-**GitHub Repo:** github.com/Simonadeka/CIP-B106-Mobile-and-IoT-Forensics-Android-10-Pixel3-Evidence-Case-Study-C11-26-DFIT-17300
-**Working Path:** ~/CIPB106-C11/26/DFIT/17300/Working/Pixel 3
-**Evidence Path:** ~/CIPB106-C11/26/DFIT/17300/Evidence/
 
 ### Academic Declaration
 
