@@ -13,7 +13,7 @@
 | offline.db | `data/data/com.google.android.apps.maps/files/offlinedatabase/offline.db` | 380K 389,120 B | `77467648434bf0462b9dcc8B885cB0efe780d4dab6b330740e6b178894ea63c` | ✅ MATCH |
 | final_location.txt | `Evidence/final_location.txt` | 64B | Holly Springs + WORK + HOME | ✅ VERIFIED |
 
-```bash
+
 sha256sum Working/offline.db | cut -d' ' -f1 > /tmp/w.txt
 sha256sum Evidence/offline.db | cut -d' ' -f1 > /tmp/e.txt
 diff /tmp/w.txt /tmp/e.txt && echo "HASH MATCH - PRESERVATION OK"
