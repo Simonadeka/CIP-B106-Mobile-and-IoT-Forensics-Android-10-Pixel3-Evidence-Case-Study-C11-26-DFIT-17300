@@ -1,7 +1,5 @@
 # CIP-B106-Mobile-and-IoT-Forensics-Android-10-Pixel3-Evidence-Case-Study-C11-26-DFIT-17300
 
-**Reg:** C11/26/DFIT/17300 | **Case:** CIP B106 Mobile and IoT Forensics | **Device:** Android 10 Pixel 3 | **Analyst:** Simonadeka | **Date:** 09 Oct 2026
-
 ![Status](https://img.shields.io/badge/Status-Verified-100%25-success) ![Device](https://img.shields.io/badge/Device-Pixel%203%20Android%2010-blue) ![Hash](https://img.shields.io/badge/SHA256-77467648...MATCH-orange) ![Location](https://img.shields.io/badge/Location-Holly%20Springs%2035.73--78.63-red)
 
 
